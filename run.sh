@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
 
-dir=build/scripts
-script=cn.hssnow.pi-fan-control
-sh ${dir}/${script}
+jar -jar build/lib/cn.hssnow.pi-fan-control-1.0.jar
