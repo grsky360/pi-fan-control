@@ -13,7 +13,9 @@ repositories {
     mavenCentral()
 }
 
-mainClassName = 'cn.hssnow.pi.fanctrl.Main'
+application {
+    mainClassName = 'cn.hssnow.pi.fanctrl.Main'
+}
 
 dependencies {
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.4'
