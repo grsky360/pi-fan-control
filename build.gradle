@@ -18,6 +18,8 @@ dependencies {
 }
 
 jar {
+    baseName = 'app'
+    version = ''
     from {
         configurations.runtime.collect { zipTree(it) }
     }
